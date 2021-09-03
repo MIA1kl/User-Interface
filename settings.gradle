@@ -1,0 +1,2 @@
+rootProject.name = "BirthCard"
+include ':app'

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ContentDescription"
+    android:background="#FAEBD7">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/uni"
+        android:id="@+id/logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_below="@+id/logo"
+        android:text="International Ala_Too University"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="20dp"
+        android:text="The Ala-Too International University formerly known as the International Atatürk-Alatoo University, is a private university located in Bishkek, Kyrgyzstan. It was established in 1996. The university offers graduate, master's, and doctoral programs. It is often ranked as one of Kyrgyzstan's most prestigious universities."
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15sp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contacts"
+        android:layout_below="@+id/info"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:text="Our contacts:"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_telephone"
+        android:id="@+id/phone"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/contacts"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_number"
+        android:layout_below="@+id/contacts"
+        android:layout_toRightOf="@+id/phone"
+        android:text="+996 (312) 631425"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_margin="10sp"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_email"
+        android:id="@+id/email"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/phone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:layout_below="@+id/phone"
+        android:layout_toRightOf="@+id/email"
+        android:text="info@alatoo.edu.kg"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_margin="10sp"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_pin"
+        android:id="@+id/location"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/email"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:layout_below="@+id/mail"
+        android:layout_toRightOf="@+id/location"
+        android:text="ул.Анкара (Горький) 1/8, мкр. “Тунгуч”, г.Бишкек, Кыргызстан"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_margin="10sp"
+        />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_clock"
+        android:id="@+id/clock"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/location"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/worktime"
+        android:layout_below="@+id/location"
+        android:layout_toRightOf="@+id/clock"
+        android:text="8:30-17:30"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10sp"
+        />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
